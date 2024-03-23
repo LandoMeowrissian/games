@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(black, #ffffff, black);
+}
+
+.board {
+ 
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#grid {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 1px 5px 5px black;
+}
